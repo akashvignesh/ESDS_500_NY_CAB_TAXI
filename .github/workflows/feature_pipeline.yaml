@@ -27,5 +27,5 @@ jobs:
         env:
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY}}
         run: |
-          echo "API Key Length: ${secrets.HOPSWORKS_API_KEY}"  
+          echo "API Key Length: ${#HOPSWORKS_API_KEY}"  
           python -m src.feature_pipeline
