@@ -1,0 +1,6 @@
+artifact_location: file:///d:/Code/Git/ESDS_500_NY_CAB_TAXI/notebooks/mlruns/968949791832927204
+creation_time: 1741130806633
+experiment_id: '968949791832927204'
+last_update_time: 1741130806633
+lifecycle_stage: active
+name: LightGBM_Tuning
